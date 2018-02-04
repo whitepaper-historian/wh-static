@@ -1,0 +1,28 @@
+Tools Used:
+-JS Libaries
+--DataTables - For pretty tables with some nice functionality built-in
+---https://datatables.net/reference/index
+--AWS JS SDK
+---https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/
+-Node.js on Lambda
+--https://docs.aws.amazon.com/lambda/latest/dg/programming-model.html
+-cheerio
+--https://github.com/cheeriojs/cheerio
+
+Idea Tracking:
+-https://trello.com/b/1UhWnM4p/whitepaper-tracking-site
+
+Infra Stack
+-gcardona.me Stack (gcardona.me/docs.txt)
+-Lambda
+-DynamoDB
+-S3
+
+Resources:
+-AWS Serverless WebApp Workshop (https://github.com/awslabs/aws-serverless-workshops/tree/master/WebApplication)
+-How to Scrape the Web with Node.JS (https://scotch.io/tutorials/scraping-the-web-with-node-js)
+--WARNING: This is a legal gray area. This does create traffic against your scraping source. I have ensured that my scraping is done infrequently to avoid interrupting operations for my source.
+
+Future Reading:
+-How to Implement a Send to Kindle Link
+--https://stackoverflow.com/questions/8029333/how-to-implement-a-send-to-kindle-link
